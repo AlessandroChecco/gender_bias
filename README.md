@@ -1,5 +1,6 @@
 # User Bias in Image Search
-Dataset used in  "Investigating User Bias in Image Search: A Cross-Regional Study". It contains 2,811 query-description comparisons for \num{281} different users is available at \emph{redacted for anonymous review}.
+Dataset used in  "Investigating User Bias in Image Search: A Cross-Regional Study". It contains 2,811 query-description comparisons for 281 different users.
+
 # Dataset description
 We release two datasets:
 
