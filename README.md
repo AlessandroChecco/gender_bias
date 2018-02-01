@@ -20,7 +20,7 @@ We put the domain in square brakets, where appropriate.
 - *_city*: city
 - *_ip*: IP address (anonymised)
 - *age*: age range []
-- *asi1$22*: answer to the ASI [1-7]
+- *asi1$22*: answer to the ASI [1-7] (corrected according the the indicated reversals)
 - *better_0$9*: Which description do you think better represent the images? [Your answer - Search engine query]
 - *biased_search*: Can you recall an image search performed recently where you felt the results did not provide an objective view? [Free text - Optional]
 - *experience*: Approximately, how many image searches you make per week? (insert a whole number) [integer]
@@ -33,11 +33,19 @@ explanation_0$9: refering to better$, explanation of whether the search engine o
 - *proficiency*: How skilled  do you consider yourself at using search engines? [from 1 (non skilled) to 7 (very skilled)]
 - *remorse_0$9*: it's an [integer] that shows how many times the worker clicked back to signal they changed their mind about the query they just guessed
 - *worker_user_agent*: worker user agent (anonymised)
-semantic_0$9: In which characteristic(s) the two textual descriptions differ?
-similarity_0$9: How similar are the two queries? [1(very different) - 7(very similar)]
-specific_bias_0$9: How objective do you think the results of the search engine are for the query '{{query}}' [1(very subjective)-7(very objective)]
-tentative_0$9: it's an integer that shows how many times the worker failed to guess because they put a very small word (less than three letters) and clicked next
-worker_user_agent: worker user agent
-0$9_imageurl: image url (list) backup in my server
-0$9_imageurl_google: image url (list) from google
-0$9_query: query we used for image $
+- *semantic_0$9*: In which characteristic(s) the two textual descriptions differ?
+- *similarity_0$9*: How similar are the two queries? [from 1 (very different) to 7(very similar)]
+- *specific_bias_0$9*: How objective do you think the results of the search engine are for the query '{{query}}' [from 1 (very subjective) to 7 (very objective)]
+- *tentative_0$9*: it's an [integer] that shows how many times the worker failed to guess because they put a very small word (less than three letters) and clicked next
+- *0$9_imageurl_google*: image url (list of urls) from google
+- *0$9_query*: query we used to obtain image grid $.
+- *total_time*: time spent on the task (in nanoseconds)
+- *asi_score*: ASI score
+- *asi_benevolent_score*: ASI score (benevolent part)
+- *asi_hostile_score*: ASI score (hostile part)
+- *global_rmse*: mean squared error of perceived bias
+- *male_rmse*: mean squared error of perceived bias for male images
+- *female_rmse*: mean squared error of perceived bias for female images 
+- *neutral_rmse*: mean squared error of perceived bias for neutral images 
+- *global_offset*: mean of errors where positive error means tendency to perceive a bias for neutral images and negative error is the opposite. Zero can be no bias or balanced errors in the two directions!
+
