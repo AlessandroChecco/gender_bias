@@ -48,5 +48,5 @@ explanation_0$9: refering to better$, explanation of whether the search engine o
 - *male_rmse*: mean squared error of perceived bias for male images
 - *female_rmse*: mean squared error of perceived bias for female images 
 - *neutral_rmse*: mean squared error of perceived bias for neutral images 
-- *global_offset*: mean of errors where positive error means tendency to perceive a bias for neutral images and negative error is the opposite. Zero can be no bias or balanced errors in the two directions!
+- *global_offset*: mean of errors where positive error means tendency to perceive a bias for neutral images and negative error is the opposite. Zero can mean no bias or balanced errors in the two directions!
 
