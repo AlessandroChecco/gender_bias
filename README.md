@@ -12,7 +12,7 @@ We use x$y to represent a range of columns. For example asi1$22 represents the c
 We put the domain in square brakets, where appropriate.
 
 - *_unit_id*: main id
-- *_id*: not sure but it can be ignored
+- *id*: this is allows to compare experiments between different countries.
 - *_channel*: Wrowdflower channel used
 - *_trust*: the worker trust, given by CrowdFlower
 - *_worker_id*: worker id (anonymised)
