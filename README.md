@@ -1,5 +1,8 @@
 # User Bias in Image Search
-Dataset used in  "Investigating User Bias in Image Search: A Cross-Regional Study". It contains 2,811 query-description comparisons for 281 different users.
+Dataset used in  the paper
+Otterbacher, J., Checco, A., Demartini, G., & Clough, P. (2018, June). Investigating user perception of gender bias in image search: the role of sexism. In The 41st International ACM SIGIR Conference on Research & Development in Information Retrieval (pp. 933-936).
+
+It contains 2,811 query-description comparisons for 281 different users.
 
 # Dataset description
 We release two datasets:
@@ -50,3 +53,15 @@ explanation_0$9: refering to better$, explanation of whether the search engine o
 - *neutral_rmse*: mean squared error of perceived bias for neutral images 
 - *global_offset*: mean of errors where positive error means tendency to perceive a bias for neutral images and negative error is the opposite. Zero can mean no bias or balanced errors in the two directions!
 
+# Citing the dataset
+Otterbacher, J., Checco, A., Demartini, G., & Clough, P. (2018, June). Investigating user perception of gender bias in image search: the role of sexism. In The 41st International ACM SIGIR Conference on Research & Development in Information Retrieval (pp. 933-936).
+
+```
+@inproceedings{otterbacher2018investigating,
+  title={Investigating user perception of gender bias in image search: the role of sexism},
+  author={Otterbacher, Jahna and Checco, Alessandro and Demartini, Gianluca and Clough, Paul},
+  booktitle={The 41st International ACM SIGIR Conference on Research \& Development in Information Retrieval},
+  pages={933--936},
+  year={2018}
+}
+```
