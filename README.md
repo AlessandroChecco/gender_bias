@@ -1,5 +1,6 @@
 # User Bias in Image Search
 Dataset used in  the paper
+
 Otterbacher, J., Checco, A., Demartini, G., & Clough, P. (2018, June). Investigating user perception of gender bias in image search: the role of sexism. In The 41st International ACM SIGIR Conference on Research & Development in Information Retrieval (pp. 933-936).
 
 It contains 2,811 query-description comparisons for 281 different users.
