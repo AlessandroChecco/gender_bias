@@ -17,7 +17,7 @@ We put the domain in square brakets, where appropriate.
 
 - *_unit_id*: main id
 - *id*: this is allows to compare experiments between different countries.
-- *_channel*: Wrowdflower channel used
+- *_channel*: Crowdflower channel used
 - *_trust*: the worker trust, given by CrowdFlower
 - *_worker_id*: worker id (anonymised)
 - *_country*: country
@@ -25,7 +25,7 @@ We put the domain in square brakets, where appropriate.
 - *_city*: city
 - *_ip*: IP address (anonymised)
 - *age*: age range []
-- *asi1$22*: answer to the ASI [1-7] (corrected according the the indicated reversals)
+- *asi1$22*: answer to the ASI [1-7], already corrected according the indicated reversals: items 2, 3, and 7 are con-trait items, phrased in the reverse. HSS items 3, 6, and 9 are also con-trait items.
 - *better_0$9*: Which description do you think better represent the images? [Your answer - Search engine query]
 - *biased_search*: Can you recall an image search performed recently where you felt the results did not provide an objective view? [Free text - Optional]
 - *experience*: Approximately, how many image searches you make per week? (insert a whole number) [integer]
